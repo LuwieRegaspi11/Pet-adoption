@@ -68,6 +68,54 @@
   </div>
 </header>
 
+  <!-- Carousel -->
+<div id="carouselExampleCaptions" class="carousel slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="images/Rambo.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Japanese Pomeranian Shih Tzu</h5>
+        <p>2 Years old | Male</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="images/A-C.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Aspin</h5>
+        <p>1 Year old | Female</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="images/blackie.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Black Labrador</h5>
+        <p>3 Years old | Female</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="images/blackie.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Kisses</h5>
+        <p>2 Years old | Female</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
 <!-- Search Bar -->
 <div class="container mb-4">
   <input id="searchBar" type="text" class="form-control" placeholder="Search for a pet..." onkeyup="filterPets()" />
@@ -280,145 +328,6 @@
           </div>
         </div>
       </div>
-  
-      <!-- Pet 3 -->
-      <div class="col-md-3 pet-item">
-        <div class="card pet-card">
-          <img src="https://place-puppy.com/300x301" class="card-img-top" alt="Milo the Beagle">
-          <div class="card-body">
-            <h5 class="card-title">Milo</h5>
-            <p><strong>Breed:</strong> Beagle</p>
-            <p><strong>Age:</strong> 2 years</p>
-            <p><strong>Size:</strong> Medium</p>
-            <p><strong>Personality:</strong> Friendly, Curious</p>
-            <p><strong>Health:</strong> Healthy, neutered</p>
-            <p><strong>Adoption Status:</strong> Available</p>
-            <p><strong>Special Notes:</strong> Loves to explore. Good with other pets.</p>
-          </div>
-        </div>
-      </div>
-  
-      <!-- Pet 4 -->
-      <div class="col-md-3 pet-item">
-        <div class="card pet-card">
-          <img src="https://placekitten.com/300/301" class="card-img-top" alt="Chloe the Cat">
-          <div class="card-body">
-            <h5 class="card-title">Chloe</h5>
-            <p><strong>Breed:</strong> Maine Coon</p>
-            <p><strong>Age:</strong> 4 years</p>
-            <p><strong>Size:</strong> Large</p>
-            <p><strong>Personality:</strong> Shy, Loyal</p>
-            <p><strong>Health:</strong> Healthy, vaccinated</p>
-            <p><strong>Adoption Status:</strong> Available</p>
-            <p><strong>Special Notes:</strong> Needs a quiet home. Loves being groomed.</p>
-          </div>
-        </div>
-      </div>
-  
-      <!-- Pet 5 -->
-      <div class="col-md-3 pet-item">
-        <div class="card pet-card">
-          <img src="https://place-puppy.com/300x302" class="card-img-top" alt="Benny the Bulldog">
-          <div class="card-body">
-            <h5 class="card-title">Benny</h5>
-            <p><strong>Breed:</strong> Bulldog</p>
-            <p><strong>Age:</strong> 5 years</p>
-            <p><strong>Size:</strong> Medium</p>
-            <p><strong>Personality:</strong> Calm, Affectionate</p>
-            <p><strong>Health:</strong> Healthy, neutered</p>
-            <p><strong>Adoption Status:</strong> Available</p>
-            <p><strong>Special Notes:</strong> Perfect for apartments. Needs moderate exercise.</p>
-          </div>
-        </div>
-      </div>
-
-    <!-- Pet 1 -->
-    <div class="col-md-3 pet-item">
-      <div class="card pet-card">
-        <img src="https://place-puppy.com/300x300" class="card-img-top" alt="Rex the Dog">
-        <div class="card-body">
-          <h5 class="card-title">Rex</h5>
-          <p><strong>Breed:</strong> Golden Retriever</p>
-          <p><strong>Age:</strong> 3 years</p>
-          <p><strong>Size:</strong> Large</p>
-          <p><strong>Personality:</strong> Playful, Energetic</p>
-          <p><strong>Health:</strong> Healthy, vaccinated</p>
-          <p><strong>Adoption Status:</strong> Available</p>
-          <p><strong>Special Notes:</strong> Loves playing fetch. Good with kids.</p>
-        </div>
-      </div>
-    </div>
-
-    <!-- Pet 2 -->
-    <div class="col-md-3 pet-item">
-      <div class="card pet-card">
-        <img src="https://placekitten.com/300/300" class="card-img-top" alt="Luna the Cat">
-        <div class="card-body">
-          <h5 class="card-title">Luna</h5>
-          <p><strong>Breed:</strong> Siamese</p>
-          <p><strong>Age:</strong> 1.5 years</p>
-          <p><strong>Size:</strong> Small</p>
-          <p><strong>Personality:</strong> Calm, Independent</p>
-          <p><strong>Health:</strong> Healthy, spayed</p>
-          <p><strong>Adoption Status:</strong> Available</p>
-          <p><strong>Special Notes:</strong> Prefers quiet homes. Litter trained.</p>
-        </div>
-      </div>
-    </div>
-
-    <!-- Pet 3 -->
-    <div class="col-md-3 pet-item">
-      <div class="card pet-card">
-        <img src="https://place-puppy.com/300x301" class="card-img-top" alt="Milo the Beagle">
-        <div class="card-body">
-          <h5 class="card-title">Milo</h5>
-          <p><strong>Breed:</strong> Beagle</p>
-          <p><strong>Age:</strong> 2 years</p>
-          <p><strong>Size:</strong> Medium</p>
-          <p><strong>Personality:</strong> Friendly, Curious</p>
-          <p><strong>Health:</strong> Healthy, neutered</p>
-          <p><strong>Adoption Status:</strong> Available</p>
-          <p><strong>Special Notes:</strong> Loves to explore. Good with other pets.</p>
-        </div>
-      </div>
-    </div>
-
-    <!-- Pet 4 -->
-    <div class="col-md-3 pet-item">
-      <div class="card pet-card">
-        <img src="https://placekitten.com/300/301" class="card-img-top" alt="Chloe the Cat">
-        <div class="card-body">
-          <h5 class="card-title">Chloe</h5>
-          <p><strong>Breed:</strong> Maine Coon</p>
-          <p><strong>Age:</strong> 4 years</p>
-          <p><strong>Size:</strong> Large</p>
-          <p><strong>Personality:</strong> Shy, Loyal</p>
-          <p><strong>Health:</strong> Healthy, vaccinated</p>
-          <p><strong>Adoption Status:</strong> Available</p>
-          <p><strong>Special Notes:</strong> Needs a quiet home. Loves being groomed.</p>
-        </div>
-      </div>
-    </div>
-
-    <!-- Pet 5 -->
-    <div class="col-md-3 pet-item">
-      <div class="card pet-card">
-        <img src="https://place-puppy.com/300x302" class="card-img-top" alt="Benny the Bulldog">
-        <div class="card-body">
-          <h5 class="card-title">Benny</h5>
-          <p><strong>Breed:</strong> Bulldog</p>
-          <p><strong>Age:</strong> 5 years</p>
-          <p><strong>Size:</strong> Medium</p>
-          <p><strong>Personality:</strong> Calm, Affectionate</p>
-          <p><strong>Health:</strong> Healthy, neutered</p>
-          <p><strong>Adoption Status:</strong> Available</p>
-          <p><strong>Special Notes:</strong> Perfect for apartments. Needs moderate exercise.</p>
-        </div>
-      </div>
-    </div>
-
-    
-
   </div>
 </div>
 
